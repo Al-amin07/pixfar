@@ -1,11 +1,41 @@
-# React + TypeScript + Vite
+# E-Commerce Product List Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Project Overview
 
-Currently, two official plugins are available:
+This project is a **Simple E-Commerce Product List Application** built with **React**, **TypeScript**, and **RTK Query**. It allows users to browse products, search for items, and manage their shopping cart. Key functionalities include:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Infinite Scroll** for loading more products as users scroll down.
+- **Search Functionality** for filtering products.
+- **Cart Management** using Redux Persist and TypeScript types (`CartItem` and `Product`).
+  
+The app is deployed on Netlify and demonstrates essential e-commerce features for online product listing.
+
+## Tech Stack
+
+- **React**
+- **TypeScript**
+- **Redux Toolkit (RTK Query)**
+- **Tailwind CSS** (for styling)
+  
+## Running the App Locally
+
+Follow these steps to get the app running on your local machine:
+
+### Prerequisites
+
+- Node.js (v14 or later)
+- npm (or yarn)
+
+### Installation
+
+1. **Clone the repository**:
+   git clone https://github.com/your-username/ecommerce-app.git
+   cd ecommerce-app
+2. **Install dependencies**:
+  npm install
+3. **Start the development server**:
+  npm run dev
+
 
 ## Expanding the ESLint configuration
 
