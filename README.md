@@ -2,7 +2,9 @@
 
 ## Project Overview
 
-This project is a **Simple E-Commerce Product List Application** built with **React**, **TypeScript**, and **RTK Query**. It allows users to browse products, search for items, and manage their shopping cart. Key functionalities include:
+This project is a **Simple E-Commerce Product List Application** built with **React**, **TypeScript**, and **RTK Query**. It allows users to browse products, search for items, and manage their shopping cart.
+live link : https://pixfar.netlify.app/
+Key functionalities include:
 
 - **Infinite Scroll** for loading more products as users scroll down.
 - **Search Functionality** for filtering products.
